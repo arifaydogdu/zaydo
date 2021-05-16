@@ -1,0 +1,105 @@
+header{
+    background: black;
+    height: 60px;
+}
+header ul li{
+    float: left;
+    font-size: 20px;
+}
+header ul {
+    position: absolute;
+    left: 350px;
+}
+header ul li a {
+padding: 20px;
+display: block;
+color: white;
+}
+header ul li a:hover {
+    text-decoration: none;
+    color: white;
+    background: dodgerblue;
+}
+.logo img {
+    float: left;
+    size: 20px;
+}
+.genel {
+    width: 1300px;
+    margin: auto;
+    margin-top: 10px;
+   
+}
+.uzaylar {
+    height: 50px;
+    background: #ddd;
+    margin: 20px;
+    width: 00px;
+}
+
+.urunler {
+    height: 440px;
+    background: #ddd;
+    margin: 20px;
+}
+
+
+
+.magazin {
+    height: 418px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    float: left;
+    margin: 3px 2px;
+}
+.dunya {
+    height: 418px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+    float: left;
+    margin: 3px 2px;
+
+}
+.urun {
+    height: 418px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+    float: left;
+    margin: 3px 2px;
+}
+.dunya h2 {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.magazin h2 {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.urun h2 {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.magazin :hover {
+    background: dodgerblue;
+    transition: all 0.5s;
+}
+.dunya :hover {
+    background: dodgerblue;
+    transition: all 0.5s;
+
+}
+.urun :hover {
+    background: dodgerblue;
+    transition: all 0.5s;
+
+}
